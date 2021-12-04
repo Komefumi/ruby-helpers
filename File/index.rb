@@ -21,5 +21,5 @@ module FileHelper
     return self.read_it(filename).readlines
   end
 
-  module_function :read_file, :read_it
+  module_function :read_file, :read_it, :all_lines
 end
